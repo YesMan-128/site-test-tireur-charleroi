@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>Tireur de Charleroi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Bootswatch Lux Theme (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/lux/bootstrap.min.css">
+
+    <style>
+        .backimg {
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-image: url("./img/Umek-Team.jpeg");
+            /* La hauteur ça change tout mdr*/
+            height: 91vh;
+        }
+
+        .backimg::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            /* Assombrit le fond */
+        }
+
+        .bgtf {
+            background-color: #101010;
+        }
+
+        .text_img {
+            position: relative;
+            color: white;
+            text-align: center;
+            padding-top: 20%;
+            font-family:Impact;
+            font-size:90px;
+        }
+    </style>
+</head>
+
+<body style="background-color:black;">
+    <header>
+        <nav class="navbar navbar-expand-lg bgtf" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./Tireur de Charleroi.html">
+                    <img src="./img/Logo1-2.jpg" height="50" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Tireur de Charleroi.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Qui">Qui sommes-nous ?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Cours">Cours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Compétition">Cours compétition</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Ici les trucs à droite sur la navbar-->
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="text-light">
+        <div class="backimg p-5">
+            <h1 class="text_img">Le tireur de Charleroi</h1>
+        </div>
+        <div class="container pt-5">
+            <div class="row py-5 text-center align-items-center">
+                <div class="col-12">
+                    <h1 id="Qui" style="color: white;">Qui sommes-nous ?</h1>
+                    <p>
+                        Fondé en 1975, le club <strong>Le Tireur de Charleroi</strong> est une référence
+                        en
+                        <strong>Savate - Boxe Française</strong>. Notre mission est d’enseigner cet art martial Éductif,
+                        Efficace et Esthétique. La boxe française est accessible à tous, peu importe l'âge ou le niveau.
+                        <br><br>
+                        Que vous souhaitiez apprendre les bases, vous perfectionner ou vous entraîner pour la
+                        compétition,
+                        nos coachs expérimentés vous accompagnent avec passion, rigueur et humour.
+                    </p>
+                </div>
+            </div>
+            <div class="row py-5 align-items-center">
+                <div class="col-lg-7 col-sm-12">
+                    <h1 style="color: white;">Les cours</h1>
+                    <p>
+                        Nos cours de <strong>boxe française</strong> sont ouverts à tous, que vous soyez débutant ou
+                        confirmé.
+                        Nous proposons une approche complète : <em>technique, condition physique et tactique</em>.
+                        <br><br>
+                        Une paire de gants de boxe est necessaire pour participé. 
+                        <br><br>
+                        <strong>Horaires des cours :</strong>
+                    <ul>
+                        <li><strong>Lundi :</strong> 19h - 20h30, salle N°3</li>
+                        <li><strong>Vendredi :</strong> 20h - 21h30, salle N°1</li>
+                    </ul>
+                    📍 <a class="text-light" target="_blank" href="https://maps.app.goo.gl/KzFW57i4zgBB3aMB6">Lieu : Rue des Olympiades N°2, Charleroi 6000</a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-12">
+                    <img src="./img/Photo-cours-3.jpeg" class="img-fluid" id="Cours" alt="photo cours" />
+                </div>
+            </div>
+            <div class="row py-5 align-items-center">
+                <div class="col-lg-7 col-sm-12">
+                    <h1 style="color: white;">Les cours compétition</h1>
+                    <p>
+                        Pour les compétiteurs et ceux qui veulent repousser leurs limites, nous proposons un
+                        <strong>entraînement spécifique compétition</strong>.
+                        <br><br>
+                        Ces séances sont axées sur la condition physique avancée, la stratégie et la préparation aux
+                        combats.
+                        <br><br>
+                        <strong>Horaire :</strong>
+                    <ul>
+                        <li><strong>Mercredi :</strong> 20h - 21h</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-12">
+                    <img src="./img/Logo2-3.jpg" class="img-fluid" id="Compétition" alt="logo team" sizes="auto" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bgtf">
+        <div class="container p-4">
+            <div class="row my-4 align-items-center">
+
+                <div class="col-lg-4 col-md-12 my-4 text-center">
+                    <a href="#" class="text-uppercase text-light">Facebook</a>
+                </div>
+
+                <div class="col-lg-4 my-4 text-center">
+                    <div class="d-flex align-items-center justify-content-center my-4">
+                        <img src="./img/Logo1-2.jpg" height="70" />
+                    </div>
+                    <p class="text-center">Savate - boxe française - charleroi - Le tireur de charleroi</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 my-4 text-center">
+                    <a href="#" class="text-uppercase text-light">Instragram</a>
+                </div>
+
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-12 text-center">
+                    <p class="text-light"><span class="text-uppercase">Contact</span>: romeo.sfr@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
